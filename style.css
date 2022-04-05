@@ -1,0 +1,106 @@
+body{
+background-color: Silver;
+}
+.obolochka{
+    width: 70%;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow:
+    0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+}
+.top{
+    height: 40px;
+    background-color: rgb(52, 54, 54);
+}
+.top-content{
+    display: flex;
+    justify-content: space-around;
+    height: 230px;
+    background-color: DarkGrey;
+}
+.img-logo{
+    height: 200px;
+    width: 200px;
+    border-radius: 40%;
+    margin-left: 350px;
+    margin-top:10px;
+}
+.top-content__text{
+    color:blanchedalmond;
+    padding-top:100px;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px;
+    padding-bottom: 20px;
+}
+h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;   
+
+    letter-spacing: 0.0025em;
+    text-transform: uppercase;
+    color: #555555;
+    text-decoration:underline; 
+    padding-bottom:15px;
+}
+li,p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;   
+
+    letter-spacing: 0.0025em;
+    color: #200808;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: DarkGrey;
+    padding-top:40px;
+    color:blanchedalmond;
+}
+.footer__p{
+    color:blanchedalmond;
+}
+.why{
+padding:40px;
+}
+.facts{
+    padding:10px;
+    padding-left:47px;
+}
+.item-line{
+    background-color: rgb(232, 232, 234);
+    height: 2px;
+    width: 60%;
+    margin:0 auto;
+}
+.primer{
+    padding:30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;   
+
+    letter-spacing: 0.0025em;
+    color: #200808;
+}
+.primer p{
+    padding-bottom:20px;
+    font-size: 14px;
+}
+.p{
+    padding-left:30px;
+    padding-bottom: 30px;
+}
